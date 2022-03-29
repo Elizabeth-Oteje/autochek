@@ -1,0 +1,79 @@
+body{
+    background-color: #fbfbfb;
+}
+
+.dropdown-menu a{
+    text-decoration: none;
+    color: black;
+    line-height: 2.5;
+    font-size: 14px;
+  }
+
+.tab{
+    min-width: 60px;
+    min-height: 30px;
+   float: left;
+  }
+  
+.top a{
+    font-size: 14px;
+  }
+
+.tip{
+    color: black;
+    font-weight: 600;
+}
+
+.cart{
+    background-color: #fbfbfb;
+}
+
+/* .card{
+    background-color:rgb(8, 8, 71);
+} */
+.navItem{
+font-size: 14px;
+}
+
+.card-image{
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(32, 7, 73, 0.7), rgba(5, 1, 39, 0.7)), url(/images/grid-2.webp);
+    background-size:cover;
+
+}
+.card-image-2{
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(32, 7, 73, 0.7), rgba(5, 1, 39, 0.7)), url(/images/grid-3.png);
+    background-size:cover;
+
+}
+.card-image-1{
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(32, 7, 73, 0.7), rgba(5, 1, 39, 0.7)), url(/images/grid-1.webp);
+    background-size:cover;
+
+}
+
+/* .card-image-1{
+   
+    background:linear-gradient(0deg, rgba(32, 7, 73, 0.5), rgba(5, 1, 39, 0.5));
+    
+} */
+
+.merge-top{
+    padding-top: 60px;
+    padding-left: 30px;
+}
+
+.merge-top-1{
+    padding-top: 300px;
+    padding-left: 30px;
+}
+
+.sect-1{
+   margin-top: 65%;
+}
+
+
+
+
