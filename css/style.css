@@ -1,6 +1,13 @@
 body{
     background-color: #fbfbfb;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+a{
+    text-decoration: none;
+}
+
+
 
 .dropdown-menu a{
     text-decoration: none;
@@ -28,12 +35,7 @@ body{
     background-color: #fbfbfb;
 }
 
-/* .card{
-    background-color:rgb(8, 8, 71);
-} */
-.navItem{
-font-size: 14px;
-}
+
 
 .card-image{
     min-height:100%;
@@ -54,26 +56,157 @@ font-size: 14px;
 
 }
 
-/* .card-image-1{
-   
-    background:linear-gradient(0deg, rgba(32, 7, 73, 0.5), rgba(5, 1, 39, 0.5));
+.card-image-4{
+    min-height: 100%;
+    background: linear-gradient(0deg, rgba(250, 250, 252, 0.8), rgba(250, 250, 252, 0.8)),url(/images/map.svg);
+    background-size: cover;
     
-} */
+}
+
+
 
 .merge-top{
-    padding-top: 60px;
     padding-left: 30px;
+    padding-top: 50px;
 }
 
 .merge-top-1{
-    padding-top: 300px;
+    padding-top: 57%;
     padding-left: 30px;
 }
 
-.sect-1{
-   margin-top: 65%;
+
+
+
+.card-love{
+    width: 4%;
+    position: absolute;
+    left: 93%;
+    margin-top: 10px;
+}
+
+.card-btn{
+    position: absolute;
+    top: 170px;
+    margin-left: 10px;
 }
 
 
 
+.img-container{
+    padding: 0 20%;
+
+}
+
+@media (min-width: 360px){
+    .img-container{
+        padding: 0 10%;
+    }
+}
+
+.card-pop{
+   
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(236, 236, 26);
+   width: 220px;
+   height: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+/* .image-phone{
+        
+    width: 488px;
+    height: 461px;
+}
+
+.image-side{
+    margin-top: -50px;
+}
+
+.card-plus{
+    height: 186px;
+} */
+
+/* @media (min-width: 1400px){
+
+    .card-plus{
+        height: 186px;
+    }
+
+    .image-side{
+        margin-top: -50px;
+    }
+    .image-phone{
+        
+        width: 488px;
+        height: 461px;
+    }
+
+}
+
+@media (min-width: 1200px){
+    .image-side{
+        margin-top: -50px;
+    }
+    .image-phone{
+        
+        width: 488px;
+        height: 461px;
+    }
+} */
+
+/* @media (min-width: 992px){
+    .image-side{
+        margin-top: 120px;  
+    }
+
+    .image-phone{
+        
+        width: 280px;
+        height: 250px;
+    }
+
+
+}
+
+@media (min-width: 768px){
+    .image-side{
+        margin-top: 0px;  
+    }
+
+    .image-phone{
+        width: 280px;
+        height: 250px;
+    }
+
+
+} 
+
+@media (min-width: 576px){
+    .image-side{
+        margin-top: 0px;  
+    }
+
+    .image-phone{
+        width: 280px;
+        height: 250px;
+    }
+
+
+} 
+
+@media (min-width: 350px){
+    .image-side{
+        margin-top: 0px;  
+    }
+
+    .image-phone{
+        width: 280px;
+        height: 250px;
+    }
+
+
+}  */
 
